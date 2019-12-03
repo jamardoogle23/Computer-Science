@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Donut Shop</title> <link rel="shortcut icon" href="icon.png" />
+<meta name="description" content="description of donut shop">
+<link rel="stylesheet" href="Cssp4.css" />
+<script src="Java.js" async></script>
+</head>
+<body>
+    
+<div id="heading">   <p id="headingtext"> Eclipz's Donuts </p> <img id="money" src="money.png" alt="Bank"/> </div>
+
+<div id="heading2">  </div>
+
+<P id="menu">
+
+                
+<a href="Realproject4.html">HOME</a> 
+<a href="Shop.html">Shop</a> 
+<a href=""> Kitchen </a>
+<a href="">  Other Stores </a>
+<a href="">  Recipes</a>
+<a href="">  Chefs </a>
+<a href=""> Donate </a> </P>
+
+<img id="home" src="Donutcover.jpg" alt="home"/>
+
+
+<div id="storebody">
+<div id="contents">
+
+
+          
+<section class="container content-section">
+<h2 class="tattoo-header">Donuts</h2>
+
+           
+<div class="shop-items">
+              
+<div class="shop-item">
+<span class="shop-item-title">Chocolate </span>  <img class="shop-item-image" src="ChocolateDonut.JPG" id="illustrations">
+<div class="shop-item-details"> <span class="shop-item-price">$4.99</span> <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+<div class="shop-item-description"> . </div> In Stock:<div class="shop-item-inventory" id="Narnia-stock">12</div> 
+</div>
+</div>
+
+<br/>
+<br/>
+<br/>
+                
+<div class="shop-item"> <span class="shop-item-title">Regular Jelly</span> <img class="shop-item-image" src="JellyDonut.JPG" id="illustrations">
+<div class="shop-item-details"> <span class="shop-item-price">$6.99</span> <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+<div class="shop-item-description"> Jelly Donut. </div> In Stock:<div class="shop-item-inventory" id="Tafiti-stock">10</div>
+</div>
+</div>
+
+<br/>
+<br/>
+<br/>
+
+<div class="shop-item"> <span class="shop-item-title">Plain</span> <img class="shop-item-image" src="PlainDonut.JPG" id="illustrations">
+<div class="shop-item-details"> <span class="shop-item-price">$2.99</span> <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+<div class="shop-item-description"> Plain Jelly Donut With Guava filling. </div> In Stock:<div class="shop-item-inventory" id="Phoenix-stock">2</div>
+</div>
+</div>
+
+</div>
+
+</section>
+<section class="container content-section">
+<h2 class="tattoo-header">More Donuts!!!</h2>
+            
+<div class="shop-items">
+                
+<div class="shop-item"> <span class="shop-item-title">Coconut Donut</span> <img class="shop-item-image" src="CoconutDonut.JPG" id="illustrations"> 
+<div class="shop-item-details"> <span class="shop-item-price">$7.99</span> <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+<div class="shop-item-description"> Coconut Donut. </div> In Stock:<div class="shop-item-inventory" id="Stitch-stock">22</div>
+</div>
+</div>
+
+<br/>
+<br/>
+<br/>
+                
+<div class="shop-item"><span class="shop-item-title">Vanilla Donut</span> <img class="shop-item-image" src="Vanilla.JPG" id="illustrations">
+<div class="shop-item-details"><span class="shop-item-price">$6.99</span><button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+<div class="shop-item-description"> Vanilla Donut With sprinkles. </div> In Stock:<div class="shop-item-inventory" id="Tweety-stock">5</div>
+</div>
+</div>
+            
+</div>
+        
+</section>
+
+</div> 
+ 
+
+
+
+
+<div id="storecart">
+<section class="container content-section">
+
+<h2 class="cart-heading">CART</h2> 
+
+<div class="cart-total">
+                <strong class="cart-total-title">Total:</strong>
+                $<span id="carttotal">0</span>
+            </div>     
+      
+<div class="cart-row">
+                   
+                <span class="cart-item cart-header cart-column"></span>
+                <span class="cart-price cart-header cart-column"></span>
+                <span class="cart-quantity cart-header cart-column"></span>
+            </div> 
+
+<p id="cartheader"><b> Items Price Quantity </b></p>
+<br/>
+<br/>
+<div class="cart-items"></div>
+
+            
+             <button id="purchase-button" type="button" onclick="purchase()">PURCHASE</button>
+          <!-- not used but saved for reference <button class="btn btn-primary btn-purchase" type="button" >Finish Shopping</button> -->
+
+       
+       </section>
+        </div>
+
+
+
+
+
+
+<div id="wallet1"> 
+ 
+<section class="wallet1">
+<h2 id="walletheader">WALLET</h2>
+            <input type="number" id="input-balance"><button  type="button" onclick="changeText()">Add to Wallet</button>
+            <div class="wallet-total">
+                <strong class="cart-total-title">Wallet Balance:</strong>
+                $<span id="balance">0</span>
+            </div>
+            </section>
+        </div>
+
+
+
+
+<!--unused--><div id="items-for-receipt"></div>-->
+
+<a href="store.html"><button id="return-to-store"> </button></a>
+
+
+
+
+<div id="reciept">
+ <section class="wallet">
+<h2 class="section-header"></h2>
+</section>       
+</div>
+
+<p>
+<img src="Thumbsup.jpg" id="thankyou">
+
+
+</div>
+
+
+
+
+
+
+        </footer>
+    </body>
+</html>
