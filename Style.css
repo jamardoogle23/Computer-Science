@@ -1,0 +1,150 @@
+html{width:80%;
+padding: 10px;
+border:50px solid purple;
+margin:20px;
+}
+
+#Words{font-family:Comic sans ms;
+color:red;
+font-size:20px;
+letter-spacing:4px;
+
+background-opacity:0.8;
+text-align:center;
+}
+
+
+
+img{border-radius:50%;
+padding:5px;
+width:150px;
+height:150px;
+border-color:purple;
+	
+}
+
+#first{padding:10px 10px 10px 10px;
+width:96%
+height:150px;
+background-color:grey;
+margin:10px 15px 10px 15px;
+opacity: 0.8;
+border:2px solid purple;
+background-image:url("Top.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#lnav{padding:10px;
+width:150px;
+height:500px;
+background-color: grey;
+margin:10px 0px 10px 0px;
+border:2px solid purple;
+opacity:0.8;
+position:relative;
+float:left;
+background-image:url("skull.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center center;
+}
+
+#rnav{padding:10px;
+width:152px;
+height:500px;
+background-color: grey;
+margin:10px 0px 10px 0px;
+border:2px solid purple;
+opacity:0.8;
+position:relative;
+float:right;
+background-image:url("skull.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+background-position:center center;
+}
+
+#body{padding:10px;
+width:650px;
+height:500px;
+background color: grey;
+margin:auto;
+/*margin:10px 0px 10px 0px;*/
+margin-top:18px;
+border:2px
+solid purple;
+opacity:0.8;
+overflow: auto;
+/*position:relative;
+float:right;*/
+}
+
+.Highlight{color:purple;
+letter-spacing:;
+}
+
+#Edu{
+}
+
+#Experience{
+	
+}
+
+#Skills{letter-spacing:;
+}
+
+#Extracurricular{letter-spacing:;
+}
+
+
+a:link{font-weight:bold;
+text-decoration:none;
+color:cyan;
+font-size:15px;
+}
+a:visited{color:yellow;
+}
+a:hover{background:orange;
+color:purple;
+font-size:20px;
+	}
+
+a:active{
+
+}
+
+#rnavlist
+{list-style-type:none;
+font-family:comic sans ms;
+line-height:3.4em;
+}
+
+
+#lnavlist{
+	list-style-type:none;
+	font-family:comic sans ms;
+	line-height:3.4em;
+	
+	
+
+}
+
+#ftlist{list-style-type:none;
+line-height:3.4em;
+}
+
+#ft{padding:10px;
+width:1040px;
+height:150px;
+background color:purple;
+margin:10px 0px 10px 0px;
+border:2px solid purple;
+opacity:0.8;
+position:relative;
+float:bottom;
+background-image:url("Logo.jpg");
+background-repeat:no-repeat;
+background-size:200px 200px;
+background-position:center center;
+}
